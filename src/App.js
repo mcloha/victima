@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { variant } from 'styled-system'
-import isbot from 'isbot'
 
 const Root = styled.div``
 
@@ -63,7 +62,6 @@ const Button = styled('button')(
 )
 
 function App() {
-    console.log('isbot: ', isbot(navigator.userAgent))
     return (
         <Root>
             <Header>
